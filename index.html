@@ -24,25 +24,39 @@
                 </div>
             </div>
 
+            <div class="calculate-total">
+                <p>Add New Transaction / Incom</p>
+                <div class="input-group">
+                    <select name="option" id="option">
+                        <option class="Transaction" value="Transaction">Transaction</option>
+                        <option class="Income" value="Income">Income</option>
+                      </select>
+                      <input type="text" id="transaction-name" placeholder="Transaction Name">
+                    <input type="text" id="transaction-company" class="company" placeholder="Company">
+                    <input type="number" id="transaction-amount" placeholder="Amount">
+                    <input type="date" id="transaction-date">
+                </div>
+                <button class="add-new-info"">Add</button>
             </div>
-            <div class="tottal-transactions">
+
 
             </div>
+            <div class="totals-container">
+                <div class="total-transactions">
+                    <p>Total Transactions: 0</p>
+                </div>
+                <div class="total-income">
+                    <p>Total Income: 0</p>
+                </div>
+            </div>
+
             <div class="income">
                 <div class="income-header">Income</div>
-                <div class="income-item">
-                    <h2>Food for cats</h2>
-                    <p>Kaufland - 05/05/2025</p>
-                    <p class="amount negative">-5000</p>
-                </div>
                 <div class="income-item">
                     <h2>Salary</h2>
                     <p>Company XYZ - 01/05/2025</p>
                     <p class="amount">+30000</p>
                 </div>
-            </div>
-            <div class="tottal-income">
-
             </div>
 
         </div>
