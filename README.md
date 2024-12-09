@@ -1,5 +1,3 @@
-<h1>DEV MODE</h1>
-
 <h1>The Cost Calculator</h1>
 
 <h4>Is a simple and intuitive tool designed to help you track your expenses and incomes manually.
