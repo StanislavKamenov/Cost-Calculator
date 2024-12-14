@@ -19,7 +19,7 @@ The Cost Calculator is a simple and intuitive tool designed to help you track yo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/CostCalculator.git
+   git clone https://github.com/StanislavKamenov/CostCalculator.git
    ```
 2. Open the `index.html` file in your browser.
 3. Start adding your incomes and expenses manually.
